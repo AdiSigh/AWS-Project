@@ -1,0 +1,27 @@
+# Project Workflow
+
+**The Movie Magic Smart Movie Ticket Booking System is developed using a structured workflow consisting of multiple stages. Each stage integrates AWS services with a Flask-based web application.**
+
+1. Backend Development and Application Setup
+The backend of the application is developed using Flask. The application handles user registration, login functionality, and movie booking requests. AWS services are integrated into the backend using the boto3 Python SDK.
+
+2. AWS Account Setup
+An AWS account is created and accessed through the AWS Management Console. This account is used to configure all required AWS services including DynamoDB, SNS, IAM, and EC2.
+
+3. DynamoDB Database Creation
+A DynamoDB table is created to store user information and booking data. Attributes such as user ID, username, password, booking date, seat number, and movie ID are configured.
+
+4. SNS Notification Setup
+Amazon SNS is used to send notifications when a booking request is created. Users and administrators can subscribe via email to receive booking notifications.
+
+5. IAM Role Configuration
+IAM roles and policies are created to allow the application to securely access AWS services like DynamoDB and SNS without exposing credentials.
+
+6. EC2 Instance Setup
+An EC2 instance is launched to host the Flask application. Security groups are configured to allow HTTP and SSH access.
+
+7. Deployment on EC2
+The Flask application files are uploaded to the EC2 instance and the application server is started so users can access the system.
+
+8. Testing and Deployment
+The application is tested to ensure that user registration, login, booking requests, and notifications are functioning correctly.

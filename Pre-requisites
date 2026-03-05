@@ -1,0 +1,23 @@
+# Pre-requisites Setup Completed
+
+**The following tools and services were verified before starting the project:**
+
+1. AWS Account
+Successfully created and logged into the AWS Management Console.
+
+2. AWS IAM
+Access verified for Identity and Access Management to manage roles and permissions.
+
+3. AWS EC2
+Confirmed access to EC2 service for future deployment of the Flask application.
+
+4. AWS DynamoDB
+Verified DynamoDB service availability for NoSQL database storage.
+
+5. Development Environment
+Installed and configured the following tools:
+• Python
+• Git
+• Visual Studio Code
+
+These prerequisites ensure the environment is ready for developing and deploying the Movie Magic Smart Movie Ticket Booking System.

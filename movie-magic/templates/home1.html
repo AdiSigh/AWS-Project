@@ -1,0 +1,21 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Movies</title>
+<link rel="stylesheet" href="{{ url_for('static',filename='css/style.css') }}">
+<script src="{{ url_for('static',filename='js/movies1.js') }}"></script>
+</head>
+<body>
+<header>
+<h1>Movies</h1>
+<a href="/logout">Logout</a>
+</header>
+<div class="container">
+<h3>Available Movies</h3>
+<button onclick="bookMovie('Avengers','PVR Cinema','250')">Book Avengers</button>
+<button onclick="bookMovie('Avatar','INOX','300')">Book Avatar</button>
+<button onclick="bookMovie('Batman','Cinepolis','200')">Book Batman</button>
+</div>
+</body>
+</html>
